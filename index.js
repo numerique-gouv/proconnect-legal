@@ -39,19 +39,19 @@ const legalControllerFactory = (fileId) => async (req, res, next) => {
 };
 
 app.get(
-  "/moncomptepro-convention-d-adhesion",
+  "/convention-d-adhesion",
   legalControllerFactory(MCP_CONVENTION_D_ADHESION_ID),
 );
 app.get(
-  "/moncomptepro-politique-de-confidentialite",
+  "/politique-de-confidentialite",
   legalControllerFactory(MCP_POLITIQUE_DE_CONFIDENTIALITE_ID),
 );
 app.get(
-  "/moncomptepro-conditions-generales-d-utilisation",
+  "/conditions-generales-d-utilisation",
   legalControllerFactory(MCP_CONDITIONS_GENERALES_D_UTILISATION_ID),
 );
 app.get(
-  "/moncomptepro-accessibilite",
+  "/accessibilite",
   legalControllerFactory(MCP_ACCESSIBILITE_ID),
 );
 

@@ -31,7 +31,7 @@ const exportGoogleDoc = async (fileId) => {
     getBody(fileId),
   ]);
   return {
-    title: filename.replace("MonComptePro - ", ""),
+    title: filename.replace("ProConnect - ", ""),
     body: cleanHtmlContent(body),
   };
 };
